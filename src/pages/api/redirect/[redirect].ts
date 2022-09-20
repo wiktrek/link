@@ -6,12 +6,20 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   console.log(l);
   const data = [
     {
-      name: 'instagram',
+      name: 'ig',
       redirect: 'https://www.instagram.com/wiktrek1232',
     },
     {
       name: 'gh',
       redirect: 'https://github.com/wiktrek',
+    },
+    {
+      name: 'website',
+      redirect: 'https://www.wiktrek.xyz/',
+    },
+    {
+      name: 'ttv',
+      redirect: 'https://www.twitch.tv/wiktrek1232',
     },
   ];
 
