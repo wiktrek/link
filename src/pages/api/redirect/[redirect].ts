@@ -21,6 +21,10 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       name: 'ttv',
       redirect: 'https://www.twitch.tv/wiktrek1232',
     },
+    {
+      name: 'yt',
+      redirect: 'https://www.youtube.com/channel/UCd67pmblUu1gf5yhItABbqA',
+    },
   ];
 
   data.map((item) => {
