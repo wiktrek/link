@@ -1,14 +1,16 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import data from '../../../data';
-// https://www.instagram.com/wiktrek1232
+import data1 from '../../../data/data.json';
 export default async (req: NextApiRequest, res: NextApiResponse) => {
-  const l = req.query['redirect'];
+  const data = data1.data;
+  let a = 0;
+  let l = req.query['redirect'];
   console.log(l);
 
-  await data.map((item) => {
+  await data.map((item: any) => {
     if (l === item.name) {
       res.redirect(item.redirect);
+      a++;
     }
   });
-  return res.redirect('https://wiktrek.xyz/links');
+  if (a == 0) return res.redirect('https://wiktrek.xyz/links');
 };
