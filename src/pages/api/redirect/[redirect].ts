@@ -3,7 +3,7 @@ import data1 from '../../../data/data.json';
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   const data = data1.data;
   let a = 0;
-  let l = req.query['redirect'];
+  const l = req.query['redirect'];
   console.log(l);
 
   await data.map((item: any) => {
