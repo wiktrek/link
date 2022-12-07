@@ -1,8 +1,12 @@
 {
   "data": [
     {
+      "name": "steam",
+      "redirect": "https://steamcommunity.com/id/wiktrek/"
+    },
+    {
       "name": "ig",
-      "redirect": "https://www.instagram.com/wiktrexyz"
+      "redirect": "https://www.instagram.com/wiktrekxyz"
     },
     {
       "name": "instagram",
