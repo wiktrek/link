@@ -5,6 +5,14 @@
       "redirect": "https://steamcommunity.com/id/wiktrek/"
     },
     {
+      "name": "st",
+      "redirect": "https://stackoverflow.com/users/19967209/wiktrek"
+    },
+    {
+      "name": "stackoverflow",
+      "redirect": "https://stackoverflow.com/users/19967209/wiktrek"
+    },
+    {
       "name": "ig",
       "redirect": "https://www.instagram.com/wiktrekxyz"
     },
@@ -47,6 +55,11 @@
     {
       "name": "twitter",
       "redirect": "https://twitter.com/wiktrek"
+    },
+
+    {
+      "name": "repository",
+      "redirect": "https://github.com/wiktrek/link.wiktrek.xyz"
     }
   ]
 }
