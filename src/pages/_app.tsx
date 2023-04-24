@@ -1,5 +1,4 @@
 import type { AppType } from 'next/dist/shared/lib/utils';
-import superjson from 'superjson';
 import '../styles/globals.css';
 
 const MyApp: AppType = ({ Component, pageProps }) => {

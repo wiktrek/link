@@ -1,16 +1,16 @@
-import { NextApiRequest, NextApiResponse } from 'next';
-import data1 from '../../../data/data.json';
-export default async (req: NextApiRequest, res: NextApiResponse) => {
-  const data = data1.data;
-  let a = 0;
-  const l = req.query['redirect'];
-  console.log(l);
+// import { NextApiRequest, NextApiResponse } from 'next';
+// import data1 from '../../../data/data.json';
+// export default async (req: NextApiRequest, res: NextApiResponse) => {
+//   const data = data1.data;
+//   let a = 0;
+//   const l = req.query['redirect'];
+//   console.log(l);
 
-  await data.map((item: any) => {
-    if (l === item.name) {
-      res.redirect(item.redirect);
-      a++;
-    }
-  });
-  if (a == 0) return res.redirect('https://wiktrek.xyz/links');
-};
+//   await data.map((item: any) => {
+//     if (l === item.name) {
+//       res.redirect(item.redirect);
+//       a++;
+//     }
+//   });
+//   if (a == 0) return res.redirect('https://wiktrek.xyz/links');
+// };
